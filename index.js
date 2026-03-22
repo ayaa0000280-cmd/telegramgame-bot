@@ -5,7 +5,7 @@ const app = express();
 const token = "حط_توكن_بوتك_هنا";
 const bot = new TelegramBot(token);
 
-bot.setWebHook("https://your-app.onrender.com/" + token);
+bot.setWebHook("https://telegramgame-bot.onrender.com/" + token);
 
 app.use(express.json());
 
